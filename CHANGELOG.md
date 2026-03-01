@@ -86,7 +86,6 @@
 
 - [`5aa3991`](https://github.com/alvarogfn/styled-bettertools/commit/5aa39913c4fefb6c45451a4ddb2b4dcc4b38ec49)
   Thanks [@alvarogfn](https://github.com/alvarogfn)!
-
   - Rewrite all tools in typescript
   - Replace jest by vitest as unit testing framework
   - Add changesets as a way to manage releases

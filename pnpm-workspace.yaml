@@ -1,0 +1,16 @@
+autoInstallPeers: true
+
+engineStrict: true
+
+nodeVersion: 25.6.1
+
+onlyBuiltDependencies:
+  - esbuild
+
+resolutionMode: lowest-direct
+
+savePrefix: ""
+
+strictPeerDependencies: true
+
+useNodeVersion: 25.6.1
