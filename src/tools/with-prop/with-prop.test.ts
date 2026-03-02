@@ -1,6 +1,6 @@
-import type { Needles } from "@/types/utility.js";
-
 import { describe, expect, it } from "vitest";
+
+import type { Needles } from "@/types/utility.js";
 
 import { withProp } from "./with-prop.js";
 

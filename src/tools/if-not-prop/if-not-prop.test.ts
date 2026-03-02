@@ -1,6 +1,6 @@
-import type { Needles } from "@/types/utility.js";
-
 import { describe, expect, test } from "vitest";
+
+import type { Needles } from "@/types/utility.js";
 
 import { ifNotProp } from "./if-not-prop.js";
 

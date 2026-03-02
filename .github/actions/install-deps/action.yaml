@@ -3,12 +3,10 @@ description: This workflow installs dependencies using PNPM and caches the store
 inputs:
   NODE_VERSION:
     description: "The version of Node.js to use"
-    required: true
-    default: "22.x"
+    default: "25.6.1"
   PNPM_VERSION:
     description: "The version of PNPM to use"
-    required: true
-    default: "9.x"
+    default: "10.16.1"
 runs:
   using: composite
   steps:
@@ -34,7 +32,7 @@ runs:
     - uses: actions/cache@v3
       name: Setup PNPM cache
       with:
-        path: ${{ env.STORE_PATH }}
+        path: ~/.pnpm-store
         key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-

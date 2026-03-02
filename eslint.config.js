@@ -1,13 +1,13 @@
 import pluginCommunityComments from "@eslint-community/eslint-plugin-eslint-comments";
+import vitest from "@vitest/eslint-plugin";
 import configPrettier from "eslint-config-prettier";
-import { defineFlatConfig } from "eslint-define-config";
 import pluginArrayFunc from "eslint-plugin-array-func";
 import pluginNoSecrets from "eslint-plugin-no-secrets";
 import pluginPerfectionist from "eslint-plugin-perfectionist";
 import pluginPromise from "eslint-plugin-promise";
 import pluginRegexp from "eslint-plugin-regexp";
 import pluginUnicorn from "eslint-plugin-unicorn";
-import vitest from "eslint-plugin-vitest";
+import { defineConfig } from "eslint/config";
 import globals from "globals";
 import * as typescript from "typescript-eslint";
 
@@ -17,7 +17,7 @@ export function mergePropertyArray(array, property) {
   }, {});
 }
 
-export default defineFlatConfig([
+export default defineConfig([
   {
     files: ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
     languageOptions: {
@@ -82,7 +82,6 @@ export default defineFlatConfig([
       "no-loop-func": "off",
       "no-secrets/no-secrets": "warn",
       "perfectionist/sort-array-includes": "warn",
-      "perfectionist/sort-astro-attributes": "warn",
       "perfectionist/sort-enums": "warn",
       "perfectionist/sort-exports": "warn",
       "perfectionist/sort-imports": "warn",

@@ -1,6 +1,6 @@
-import type { Needle } from "@/types/utility.js";
-
 import { describe, expect, it } from "vitest";
+
+import type { Needle } from "@/types/utility.js";
 
 import type { SwitchPropCases } from "./switch-prop.js";
 

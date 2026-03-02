@@ -20,8 +20,6 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      NODE_VERSION: 22.x
-      STORE_PATH: .pnpm-store
 
     steps:
       - name: Code Checkout
