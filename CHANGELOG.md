@@ -1,5 +1,11 @@
 # styled-bettertools
 
+## 0.6.0
+
+### Minor Changes
+
+- [#67](https://github.com/alvarogfn/styled-bettertools/pull/67) [`6c6ab4b`](https://github.com/alvarogfn/styled-bettertools/commit/6c6ab4b0a12a8be9b0b15c1b6328db8ea81df591) Thanks [@alvarogfn](https://github.com/alvarogfn)! - Bump dev dependencies
+
 ## 0.5.1
 
 ### Patch Changes
