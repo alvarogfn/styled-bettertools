@@ -42,8 +42,8 @@ importers:
         specifier: 10.1.8
         version: 10.1.8(eslint@9.39.3)
       eslint-plugin-array-func:
-        specifier: 5.1.0
-        version: 5.1.0(eslint@9.39.3)
+        specifier: 5.1.1
+        version: 5.1.1(eslint@9.39.3)
       eslint-plugin-no-secrets:
         specifier: 2.3.3
         version: 2.3.3(eslint@9.39.3)
@@ -1286,8 +1286,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-array-func@5.1.0:
-    resolution: {integrity: sha512-+OULB0IQdENBmBf8pHMPPObgV6QyfeXFin483jPonOaiurI9UFmc8UydWriK5f5Gel8xBhQLA6NzMwbck1BUJw==}
+  eslint-plugin-array-func@5.1.1:
+    resolution: {integrity: sha512-TbVGk+yLqXHgtrS4DnYzg2Ycuk5y+lYFy5NgT748neQdJvNIYUucxp2QQjPU7dwbs9xp9fyktgtK069y9rNdig==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=8.51.0'
@@ -3685,7 +3685,7 @@ snapshots:
     dependencies:
       eslint: 9.39.3
 
-  eslint-plugin-array-func@5.1.0(eslint@9.39.3):
+  eslint-plugin-array-func@5.1.1(eslint@9.39.3):
     dependencies:
       eslint: 9.39.3
 
