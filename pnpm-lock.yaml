@@ -45,8 +45,8 @@ importers:
         specifier: 5.1.0
         version: 5.1.0(eslint@9.39.3)
       eslint-plugin-no-secrets:
-        specifier: 2.2.2
-        version: 2.2.2(eslint@9.39.3)
+        specifier: 2.3.3
+        version: 2.3.3(eslint@9.39.3)
       eslint-plugin-perfectionist:
         specifier: 5.6.0
         version: 5.6.0(eslint@9.39.3)(typescript@5.9.3)
@@ -1288,8 +1288,8 @@ packages:
     peerDependencies:
       eslint: '>=8.51.0'
 
-  eslint-plugin-no-secrets@2.2.2:
-    resolution: {integrity: sha512-zGOhV0YA+Vu6NvZ8eF3TNGyi5m2eTL2N+dbg+mvK6GqKpe3Q8TJl66cLhZRaRDIF0FtMGpTKkcz1aGZTYhMXlA==}
+  eslint-plugin-no-secrets@2.3.3:
+    resolution: {integrity: sha512-sroCsCscpwQxZ/O9Ml69w5qt/2nvHhXDeyUnSqSC5dMANGxt4rQgUn7xbPvDmhbMPmUCAc2Y3SRU0cXet7kNWQ==}
     engines: {node: '>=18', npm: '>=8'}
     peerDependencies:
       eslint: '>=5'
@@ -3683,7 +3683,7 @@ snapshots:
     dependencies:
       eslint: 9.39.3
 
-  eslint-plugin-no-secrets@2.2.2(eslint@9.39.3):
+  eslint-plugin-no-secrets@2.3.3(eslint@9.39.3):
     dependencies:
       eslint: 9.39.3
 
